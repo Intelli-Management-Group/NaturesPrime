@@ -1,5 +1,8 @@
 # Nature's Prime - Apache rules
 
+# Prefer the dynamic multilingual PHP page over the legacy static HTML pages.
+DirectoryIndex index.php index.html
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
